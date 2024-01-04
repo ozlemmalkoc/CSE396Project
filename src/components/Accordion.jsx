@@ -8,12 +8,7 @@ import picture1 from '../assets/1.png';
 import picture2 from '../assets/2.png';
 import picture3 from '../assets/3.png';
 import picture4 from '../assets/4.png';
-import picture5 from '../assets/5.png';
-import picture6 from '../assets/6.png';
-import picture7 from '../assets/7.png';
-import picture8 from '../assets/8.png';
-import picture9 from '../assets/9.png';
-import picture10 from '../assets/10.png';
+
 import mobilepictures from '../assets/mobilepictures.png';
 import simulation1 from '../assets/simulation1.png';
 import simulation2 from '../assets/simulation2.png';
@@ -22,7 +17,7 @@ import simulation3 from '../assets/simulation3.png';
 
 
 const Accordion = () => {
-  const [selectedTitle, setSelectedTitle] = useState(null);
+
   const [openItems, setOpenItems] = useState([]);
   const titles = ['Hardware', 'Embedded and Communication', 'Desktop User Interface',"Mobile Interface","Simulation"];
   const contents = [
